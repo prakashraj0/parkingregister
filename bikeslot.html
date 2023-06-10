@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="../presentation/bikeslot.css">
+</head>
+<body>
+    <div id="main">
+     <h1>Parking register</h1>
+     <table>
+        <tr>
+            <td>  <label for="bkno">Bike No</label></td>
+            <td><input type="number" name="" id="bkno"></td>
+        </tr>
+        <tr>
+            <td>     <label for="bwn">Bike Owner Name</label>
+            </td>
+            <td>     <input type="text" id="bwn">
+            </td>
+        </tr>
+        <tr>
+            <td><label for="cin">Time Check In</label></td>
+            <td><input type="time" id="cin"
+                ></td>
+        </tr>
+        <tr>
+            <td><label for="cout">Time Check Out</label></td>
+            <td><input type="time" id="cout"></td>
+        </tr>
+     </table>
+     <button id="btn" onclick="add()">Submit</button>
+     <div id="sub"></div>
+
+     <script src="../presentation/bikeslot.js"></script>
+    </div>
+</body>
+</html>

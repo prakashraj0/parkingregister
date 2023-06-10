@@ -1,0 +1,41 @@
+#main
+{
+    border: 1px solid black;
+    min-height: 650px;
+    line-height: 40px;
+    font-size: large;
+    padding: 20px;
+}
+h1
+{
+    margin-left: 570px;
+}
+#btn
+{
+    margin-left: 350px;
+    font-size: 15px;
+    padding: 15px;
+    background-color: rgb(210, 20, 228);
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+}
+th
+{
+    border: 1px solid black;
+    padding: 10px;
+}
+#sub
+{
+    border: 1px solid black;
+    min-height: 300px;
+    margin-top: 25px;
+    background-color: rgb(84, 255, 184);
+    visibility: hidden;
+}
+#tab
+{
+    margin: 50px;
+    margin-left: 450px;
+
+}
